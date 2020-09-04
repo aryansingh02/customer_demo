@@ -31,7 +31,7 @@ const CheckoutNav = (props: any) => {
         </IconContext.Provider>
         <WaitingText>
           {" "}
-          {props.currPage === "DemoPayment" ? 45 : cart.requestedEta} mins
+          {props.currPage === "DemoPayment" ? 5 : cart.requestedEta} mins
         </WaitingText>
       </TimeWrapper>
     );

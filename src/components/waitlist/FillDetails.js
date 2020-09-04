@@ -41,19 +41,7 @@ const Form = (props) => {
   });
 
   const Nav = () => {
-    return (
-      <div ref={navRef} className={style.Navbar}>
-        <IconContext.Provider
-          value={{
-            color: "#FFFFFF",
-            className: "global-class-name",
-            size: "20px",
-          }}
-        >
-          <IoIosArrowBack onClick={() => props.history.goBack()} />
-        </IconContext.Provider>
-      </div>
-    );
+    return <div ref={navRef} className={style.Navbar}></div>;
   };
 
   const handleClose = () => {
@@ -62,12 +50,12 @@ const Form = (props) => {
   };
 
   const createFakeOrder = () => {
-    let fakeOrder = {...userDemo.orders[userDemo.orders.length - 1]};
-    console.log("fakeorder", fakeOrder);
-    fakeOrder.name = userDemo.name;
-    fakeOrder.phone = userDemo.phone;
-    dispatch(insertEnd(fakeOrder));
-    props.history.push("/waitlist");
+    // let fakeOrder = {...userDemo.orders[userDemo.orders.length - 1]};
+    // console.log("fakeorder", fakeOrder);
+    // fakeOrder.name = userDemo.name;
+    // fakeOrder.phone = userDemo.phone;
+    // dispatch(insertEnd(fakeOrder));
+    props.history.push("/payment_confirmation");
   };
 
   const DynamicModal = () => {
@@ -123,7 +111,7 @@ const Form = (props) => {
                     onClick={() => props.history.push("/demo_payment")}
                   >
                     <YesThanksText>
-                      Yes, skip for <span>2.3 $</span>
+                      Yes, skip for <span>$ 2.3</span>
                     </YesThanksText>
                   </YesThanksButton>
                   <div className=" etaQuote">

@@ -64,7 +64,7 @@ const ModifiedOrders = (ords) => {
       var ItemCount = parseInt(li[1]);
       var Sno = i + 1;
       CumulTime = ItemCount + CumulTime;
-      var Time = CumulTime * 2;
+      var Time = 23;
 
       if (
         i === ords.length - 1 ||
@@ -95,7 +95,7 @@ const ModifiedOrders = (ords) => {
       var ItemCount = parseInt(li[1]);
       var Sno = i + 1;
       CumulTime = ItemCount + CumulTime;
-      var Time = CumulTime * 2;
+      var Time = 23;
       return (
         <div className={style.TileWrapper}>
           <Tile
