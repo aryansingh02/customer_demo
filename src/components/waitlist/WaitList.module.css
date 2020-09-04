@@ -1,0 +1,65 @@
+.Navbar
+{
+    background: #8A4CF6;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.im
+{
+    margin: 2px;
+}
+
+.TileWrapper{
+    padding: 0 20px;
+    width: 100%;
+}
+
+.RestHead{
+    color: #00476E;
+    font-size: 26px;
+    font-family: PlatformBold;
+    margin: 20px;
+}
+.RestDiv {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.restImage {
+    height: 40px;
+    width: 40px;
+}
+.outerbox{
+    width: 335px;
+}
+.PeopleCountDiv{
+    text-align: left;
+    margin: 20px;
+    margin-left: 10%;
+}
+
+.PeopleCountText {
+    font-family: NationalRegular;
+    font-size: 16px;
+
+}
+
+.PeopleCountNum {
+    font-family: NationalBold;
+    font-size: 16px;
+    color: #00adf6;
+}
+.PeopleCountNum::after {
+    content: " people";
+}
+.PeopleCountImg {
+    margin: 5px;
+}

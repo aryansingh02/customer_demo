@@ -1,0 +1,88 @@
+.Box {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #e1e1e1;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 5px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.LeftPane {
+    float: left;
+    display: inline-block;
+    width: 50px;
+    text-align: left;
+    padding-top: 15px;
+    vertical-align: middle;
+}
+
+.Sno::before {
+    content: "#";
+}
+
+.Sno {
+    font-family: NationalRegular;
+    font-size: 16px;
+    color: #444444;
+}
+
+.CentrePane {
+    padding-top: 5px;
+    width: 100px;
+    display: inline-block;
+    float: left;
+    text-align: left;
+}
+
+.CustName {
+    font-family: NationalBold;
+    font-size: 16px;
+    color: #444444;
+    text-align: left;
+    display: block;
+}
+
+.ItemCount {
+    font-family: NationalRegular;
+    font-size: 14px;
+    color: #444444;
+}
+
+.ItemCount::after {
+    content: " items in order";
+
+}
+
+.RightPane {
+    width: 110px;
+    float: right;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.Dot {
+    font-family: NationalRegular;
+    font-size: 30px;
+    color: #00ba89;
+    display: inline-block;
+    float: left;
+}
+.Dot::before {
+    content: "\2022 ";
+}
+
+.Time {
+
+    font-family: NationalRegular;
+    font-size: 14px;
+    color: #00ba89;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.Time::after {
+    content: " mins waiting";
+}

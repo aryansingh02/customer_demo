@@ -1,0 +1,1376 @@
+[
+  {
+    "_id": "5f26492ea88b9261201f3aa0",
+    "creationTimestamp": 1596344622000,
+    "status": "PREPARING",
+    "merchantInfo": {
+      "storeId": "5f1df754397eb3ea808daa04",
+      "merchantName": "Brix",
+      "stallId": "5f1df755397eb3ea808daa05"
+    },
+    "lineItems": [
+      {
+        "itemId": "5f1df751397eb3ea808da8b1",
+        "name": "Cheeseburger",
+        "totalMoney": {
+          "amount": 1198,
+          "currency": "USD"
+        },
+        "quantity": 2,
+        "selectedVariation": {
+          "_id": "5f1df751397eb3ea808da8af",
+          "name": "Large",
+          "price": {
+            "amount": 1198,
+            "currency": "USD"
+          }
+        },
+        "modifiers": [
+          {
+            "_id": "5f1df74f397eb3ea808da751",
+            "name": "Dressing",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da752",
+                "name": "Ketchup",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5f1df74f397eb3ea808da742",
+            "name": "Base",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da744",
+                "name": "Regular",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5f1df74f397eb3ea808da74c",
+            "name": "Protein",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da74e",
+                "name": "Chicken",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5f1df74f397eb3ea808da746",
+            "name": "Toppings",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da749",
+                "name": "Jalapeno",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              },
+              {
+                "_id": "5f1df74f397eb3ea808da748",
+                "name": "Tomatoes",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              }
+            ]
+          }
+        ],
+        "note": "Blah 1"
+      }
+    ],
+    "invoice": {
+      "subTotal": {
+        "amount": 2396,
+        "currency": "USD"
+      },
+      "tip": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "tax": {
+        "amount": 216,
+        "currency": "USD"
+      },
+      "chargedFee": [
+        {
+          "type": "SKIP_LINE_FEE",
+          "fee": {
+            "amount": 0,
+            "currency": "USD"
+          }
+        }
+      ],
+      "total": {
+        "amount": 2612,
+        "currency": "USD"
+      }
+    },
+    "fulfillmentInfo": {
+      "type": "PICKUP",
+      "customer": {
+        "name": "Demo user",
+        "phone": "+16508618669"
+      }
+    },
+    "updates": [
+      {
+        "timestamp": 1596344622391,
+        "type": "STATUS_CHANGE",
+        "newStatus": "RECEIVED"
+      },
+      {
+        "timestamp": 1596344922000,
+        "type": "STATUS_CHANGE",
+        "newStatus": "PREPARING",
+        "oldStatus": "RECEIVED"
+      }
+    ]
+  },
+  {
+    "_id": "5f2643691cc79a5ceadda657",
+    "creationTimestamp": 1596343145000,
+    "status": "PREPARING",
+    "merchantInfo": {
+      "storeId": "5f1df754397eb3ea808daa04",
+      "merchantName": "Brix",
+      "stallId": "5f1df755397eb3ea808daa05"
+    },
+    "lineItems": [
+      {
+        "itemId": "5f1df751397eb3ea808da8bd",
+        "name": "Double Cheeseburger",
+        "totalMoney": {
+          "amount": 1132,
+          "currency": "USD"
+        },
+        "quantity": 2,
+        "selectedVariation": {
+          "_id": "5f1df751397eb3ea808da8ba",
+          "name": "Small",
+          "price": {
+            "amount": 1119,
+            "currency": "USD"
+          }
+        },
+        "modifiers": [
+          {
+            "_id": "5f1df74f397eb3ea808da74c",
+            "name": "Protein",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da74d",
+                "name": "Beef",
+                "price": {
+                  "amount": 13,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5f1df74f397eb3ea808da742",
+            "name": "Base",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da744",
+                "name": "Regular",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5f1df74f397eb3ea808da746",
+            "name": "Toppings",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da748",
+                "name": "Tomatoes",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              },
+              {
+                "_id": "5f1df74f397eb3ea808da749",
+                "name": "Jalapeno",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              }
+            ]
+          }
+        ],
+        "note": "test"
+      }
+    ],
+    "invoice": {
+      "subTotal": {
+        "amount": 2251,
+        "currency": "USD"
+      },
+      "tip": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "tax": {
+        "amount": 203,
+        "currency": "USD"
+      },
+      "chargedFee": [
+        {
+          "type": "SKIP_LINE_FEE",
+          "fee": {
+            "amount": 0,
+            "currency": "USD"
+          }
+        }
+      ],
+      "total": {
+        "amount": 2454,
+        "currency": "USD"
+      }
+    },
+    "fulfillmentInfo": {
+      "type": "PICKUP",
+      "customer": {
+        "name": "Demo user",
+        "phone": "+16508618669"
+      }
+    },
+    "updates": [
+      {
+        "timestamp": 1596343145259,
+        "type": "STATUS_CHANGE",
+        "newStatus": "RECEIVED"
+      },
+      {
+        "timestamp": 1596343445000,
+        "type": "STATUS_CHANGE",
+        "newStatus": "PREPARING",
+        "oldStatus": "RECEIVED"
+      }
+    ]
+  },
+  {
+    "_id": "5f263f9bee5e755b5c00822a",
+    "creationTimestamp": 1596342171000,
+    "status": "PREPARING",
+    "merchantInfo": {
+      "storeId": "5f1df754397eb3ea808daa04",
+      "merchantName": "Brix",
+      "stallId": "5f1df755397eb3ea808daa05"
+    },
+    "lineItems": [
+      {
+        "itemId": "5f1df751397eb3ea808da8b1",
+        "name": "Cheeseburger",
+        "totalMoney": {
+          "amount": 1286,
+          "currency": "USD"
+        },
+        "quantity": 1,
+        "selectedVariation": {
+          "_id": "5f1df751397eb3ea808da8af",
+          "name": "Large",
+          "price": {
+            "amount": 1198,
+            "currency": "USD"
+          }
+        },
+        "modifiers": [
+          {
+            "_id": "5f1df74f397eb3ea808da751",
+            "name": "Dressing",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da753",
+                "name": "Mustard",
+                "price": {
+                  "amount": 75,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5f1df74f397eb3ea808da742",
+            "name": "Base",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da744",
+                "name": "Regular",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5f1df74f397eb3ea808da74c",
+            "name": "Protein",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da74d",
+                "name": "Beef",
+                "price": {
+                  "amount": 13,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5f1df74f397eb3ea808da746",
+            "name": "Toppings",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da749",
+                "name": "Jalapeno",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "itemId": "5f1df751397eb3ea808da8ed",
+        "name": "Berry Patch",
+        "totalMoney": {
+          "amount": 480,
+          "currency": "USD"
+        },
+        "quantity": 1,
+        "selectedVariation": {
+          "_id": "5f1df751397eb3ea808da8ec",
+          "name": "Large",
+          "price": {
+            "amount": 480,
+            "currency": "USD"
+          }
+        },
+        "modifiers": [
+          {
+            "_id": "5f1df74f397eb3ea808da742",
+            "name": "Base",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da744",
+                "name": "Regular",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "invoice": {
+      "subTotal": {
+        "amount": 1766,
+        "currency": "USD"
+      },
+      "tip": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "tax": {
+        "amount": 179,
+        "currency": "USD"
+      },
+      "chargedFee": [
+        {
+          "type": "SKIP_LINE_FEE",
+          "fee": {
+            "amount": 223,
+            "currency": "USD"
+          }
+        }
+      ],
+      "total": {
+        "amount": 2168,
+        "currency": "USD"
+      }
+    },
+    "fulfillmentInfo": {
+      "type": "PICKUP",
+      "customer": {
+        "name": "Demo user",
+        "phone": "+16508618669"
+      }
+    },
+    "updates": [
+      {
+        "timestamp": 1596342171067,
+        "type": "STATUS_CHANGE",
+        "newStatus": "RECEIVED"
+      },
+      {
+        "timestamp": 1596342471000,
+        "type": "STATUS_CHANGE",
+        "newStatus": "PREPARING",
+        "oldStatus": "RECEIVED"
+      }
+    ]
+  },
+  {
+    "_id": "5f263e22bbcdc15adbdaaa52",
+    "creationTimestamp": 1596341794000,
+    "status": "PREPARING",
+    "merchantInfo": {
+      "storeId": "5f1df754397eb3ea808daa04",
+      "merchantName": "Brix",
+      "stallId": "5f1df755397eb3ea808daa05"
+    },
+    "lineItems": [
+      {
+        "name": "Potato Wedges",
+        "totalMoney": {
+          "amount": 939,
+          "currency": "USD"
+        },
+        "quantity": 2,
+        "selectedVariation": {
+          "_id": "5f1df751397eb3ea808da8b4",
+          "name": "Large",
+          "price": {
+            "amount": 718,
+            "currency": "USD"
+          }
+        },
+        "modifiers": [
+          {
+            "_id": "5f1df74f397eb3ea808da751",
+            "name": "Dressing",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da753",
+                "name": "Mustard",
+                "price": {
+                  "amount": 75,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5f1df74f397eb3ea808da74c",
+            "name": "Protein",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da74f",
+                "name": "Tofu",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5f1df74f397eb3ea808da742",
+            "name": "Base",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da743",
+                "name": "Wheat",
+                "price": {
+                  "amount": 146,
+                  "currency": "USD"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Chicken Tender Bites",
+        "totalMoney": {
+          "amount": 1146,
+          "currency": "USD"
+        },
+        "quantity": 3,
+        "selectedVariation": {
+          "_id": "5f1df751397eb3ea808da8d0",
+          "name": "Large",
+          "price": {
+            "amount": 1080,
+            "currency": "USD"
+          }
+        },
+        "modifiers": [
+          {
+            "_id": "5f1df74f397eb3ea808da751",
+            "name": "Dressing",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da755",
+                "name": "Olive oil",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5f1df74f397eb3ea808da742",
+            "name": "Base",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da745",
+                "name": "Multigrain",
+                "price": {
+                  "amount": 66,
+                  "currency": "USD"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "invoice": {
+      "subTotal": {
+        "amount": 4963,
+        "currency": "USD"
+      },
+      "tip": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "tax": {
+        "amount": 447,
+        "currency": "USD"
+      },
+      "chargedFee": [
+        {
+          "type": "SKIP_LINE_FEE",
+          "fee": {
+            "amount": 0,
+            "currency": "USD"
+          }
+        }
+      ],
+      "total": {
+        "amount": 5410,
+        "currency": "USD"
+      }
+    },
+    "fulfillmentInfo": {
+      "type": "PICKUP",
+      "customer": {
+        "name": "Demo user",
+        "phone": "+16508618669"
+      }
+    },
+    "updates": [
+      {
+        "timestamp": 1596341794375,
+        "type": "STATUS_CHANGE",
+        "newStatus": "RECEIVED"
+      },
+      {
+        "timestamp": 1596342094000,
+        "type": "STATUS_CHANGE",
+        "newStatus": "PREPARING",
+        "oldStatus": "RECEIVED"
+      }
+    ]
+  },
+  {
+    "_id": "5f263b09d3eca25ab631c249",
+    "creationTimestamp": 1596341001000,
+    "status": "PREPARING",
+    "merchantInfo": {
+      "storeId": "5f1df754397eb3ea808daa04",
+      "merchantName": "Brix",
+      "stallId": "5f1df755397eb3ea808daa05"
+    },
+    "lineItems": [
+      {
+        "name": "Cheeseburger",
+        "totalMoney": {
+          "amount": 1263,
+          "currency": "USD"
+        },
+        "quantity": 1,
+        "modifiers": [
+          {
+            "_id": "5f1df74f397eb3ea808da751",
+            "name": "Dressing",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da754",
+                "name": "Mayonnaise",
+                "price": {
+                  "amount": 65,
+                  "currency": "USD"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "invoice": {
+      "subTotal": {
+        "amount": 1263,
+        "currency": "USD"
+      },
+      "tip": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "tax": {
+        "amount": 114,
+        "currency": "USD"
+      },
+      "chargedFee": [
+        {
+          "type": "SKIP_LINE_FEE",
+          "fee": {
+            "amount": 0,
+            "currency": "USD"
+          }
+        }
+      ],
+      "total": {
+        "amount": 1377,
+        "currency": "USD"
+      }
+    },
+    "fulfillmentInfo": {
+      "type": "PICKUP",
+      "customer": {
+        "name": "Demo user",
+        "phone": "+16508618669"
+      }
+    },
+    "updates": [
+      {
+        "timestamp": 1596341001864,
+        "type": "STATUS_CHANGE",
+        "newStatus": "RECEIVED"
+      },
+      {
+        "timestamp": 1596341301000,
+        "type": "STATUS_CHANGE",
+        "newStatus": "PREPARING",
+        "oldStatus": "RECEIVED"
+      }
+    ]
+  },
+  {
+    "_id": "5f26492ea88b9261201f3aa0",
+    "creationTimestamp": 1596344622000,
+    "status": "PREPARING",
+    "merchantInfo": {
+      "storeId": "5f1df754397eb3ea808daa04",
+      "merchantName": "Brix",
+      "stallId": "5f1df755397eb3ea808daa05"
+    },
+    "lineItems": [
+      {
+        "itemId": "5f1df751397eb3ea808da8b1",
+        "name": "Cheeseburger",
+        "totalMoney": {
+          "amount": 1198,
+          "currency": "USD"
+        },
+        "quantity": 2,
+        "selectedVariation": {
+          "_id": "5f1df751397eb3ea808da8af",
+          "name": "Large",
+          "price": {
+            "amount": 1198,
+            "currency": "USD"
+          }
+        },
+        "modifiers": [
+          {
+            "_id": "5f1df74f397eb3ea808da751",
+            "name": "Dressing",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da752",
+                "name": "Ketchup",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5f1df74f397eb3ea808da742",
+            "name": "Base",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da744",
+                "name": "Regular",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5f1df74f397eb3ea808da74c",
+            "name": "Protein",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da74e",
+                "name": "Chicken",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5f1df74f397eb3ea808da746",
+            "name": "Toppings",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da749",
+                "name": "Jalapeno",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              },
+              {
+                "_id": "5f1df74f397eb3ea808da748",
+                "name": "Tomatoes",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              }
+            ]
+          }
+        ],
+        "note": "Blah 1"
+      }
+    ],
+    "invoice": {
+      "subTotal": {
+        "amount": 2396,
+        "currency": "USD"
+      },
+      "tip": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "tax": {
+        "amount": 216,
+        "currency": "USD"
+      },
+      "chargedFee": [
+        {
+          "type": "SKIP_LINE_FEE",
+          "fee": {
+            "amount": 0,
+            "currency": "USD"
+          }
+        }
+      ],
+      "total": {
+        "amount": 2612,
+        "currency": "USD"
+      }
+    },
+    "fulfillmentInfo": {
+      "type": "PICKUP",
+      "customer": {
+        "name": "Demo user",
+        "phone": "+16508618669"
+      }
+    },
+    "updates": [
+      {
+        "timestamp": 1596344622391,
+        "type": "STATUS_CHANGE",
+        "newStatus": "RECEIVED"
+      },
+      {
+        "timestamp": 1596344922000,
+        "type": "STATUS_CHANGE",
+        "newStatus": "PREPARING",
+        "oldStatus": "RECEIVED"
+      }
+    ]
+  },
+  {
+    "_id": "5f2643691cc79a5ceadda657",
+    "creationTimestamp": 1596343145000,
+    "status": "PREPARING",
+    "merchantInfo": {
+      "storeId": "5f1df754397eb3ea808daa04",
+      "merchantName": "Brix",
+      "stallId": "5f1df755397eb3ea808daa05"
+    },
+    "lineItems": [
+      {
+        "itemId": "5f1df751397eb3ea808da8bd",
+        "name": "Double Cheeseburger",
+        "totalMoney": {
+          "amount": 1132,
+          "currency": "USD"
+        },
+        "quantity": 2,
+        "selectedVariation": {
+          "_id": "5f1df751397eb3ea808da8ba",
+          "name": "Small",
+          "price": {
+            "amount": 1119,
+            "currency": "USD"
+          }
+        },
+        "modifiers": [
+          {
+            "_id": "5f1df74f397eb3ea808da74c",
+            "name": "Protein",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da74d",
+                "name": "Beef",
+                "price": {
+                  "amount": 13,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5f1df74f397eb3ea808da742",
+            "name": "Base",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da744",
+                "name": "Regular",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5f1df74f397eb3ea808da746",
+            "name": "Toppings",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da748",
+                "name": "Tomatoes",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              },
+              {
+                "_id": "5f1df74f397eb3ea808da749",
+                "name": "Jalapeno",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              }
+            ]
+          }
+        ],
+        "note": "test"
+      }
+    ],
+    "invoice": {
+      "subTotal": {
+        "amount": 2251,
+        "currency": "USD"
+      },
+      "tip": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "tax": {
+        "amount": 203,
+        "currency": "USD"
+      },
+      "chargedFee": [
+        {
+          "type": "SKIP_LINE_FEE",
+          "fee": {
+            "amount": 0,
+            "currency": "USD"
+          }
+        }
+      ],
+      "total": {
+        "amount": 2454,
+        "currency": "USD"
+      }
+    },
+    "fulfillmentInfo": {
+      "type": "PICKUP",
+      "customer": {
+        "name": "Demo user",
+        "phone": "+16508618669"
+      }
+    },
+    "updates": [
+      {
+        "timestamp": 1596343145259,
+        "type": "STATUS_CHANGE",
+        "newStatus": "RECEIVED"
+      },
+      {
+        "timestamp": 1596343445000,
+        "type": "STATUS_CHANGE",
+        "newStatus": "PREPARING",
+        "oldStatus": "RECEIVED"
+      }
+    ]
+  },
+  {
+    "_id": "5f263f9bee5e755b5c00822a",
+    "creationTimestamp": 1596342171000,
+    "status": "PREPARING",
+    "merchantInfo": {
+      "storeId": "5f1df754397eb3ea808daa04",
+      "merchantName": "Brix",
+      "stallId": "5f1df755397eb3ea808daa05"
+    },
+    "lineItems": [
+      {
+        "itemId": "5f1df751397eb3ea808da8b1",
+        "name": "Cheeseburger",
+        "totalMoney": {
+          "amount": 1286,
+          "currency": "USD"
+        },
+        "quantity": 1,
+        "selectedVariation": {
+          "_id": "5f1df751397eb3ea808da8af",
+          "name": "Large",
+          "price": {
+            "amount": 1198,
+            "currency": "USD"
+          }
+        },
+        "modifiers": [
+          {
+            "_id": "5f1df74f397eb3ea808da751",
+            "name": "Dressing",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da753",
+                "name": "Mustard",
+                "price": {
+                  "amount": 75,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5f1df74f397eb3ea808da742",
+            "name": "Base",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da744",
+                "name": "Regular",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5f1df74f397eb3ea808da74c",
+            "name": "Protein",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da74d",
+                "name": "Beef",
+                "price": {
+                  "amount": 13,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5f1df74f397eb3ea808da746",
+            "name": "Toppings",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da749",
+                "name": "Jalapeno",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "itemId": "5f1df751397eb3ea808da8ed",
+        "name": "Berry Patch",
+        "totalMoney": {
+          "amount": 480,
+          "currency": "USD"
+        },
+        "quantity": 1,
+        "selectedVariation": {
+          "_id": "5f1df751397eb3ea808da8ec",
+          "name": "Large",
+          "price": {
+            "amount": 480,
+            "currency": "USD"
+          }
+        },
+        "modifiers": [
+          {
+            "_id": "5f1df74f397eb3ea808da742",
+            "name": "Base",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da744",
+                "name": "Regular",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "invoice": {
+      "subTotal": {
+        "amount": 1766,
+        "currency": "USD"
+      },
+      "tip": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "tax": {
+        "amount": 179,
+        "currency": "USD"
+      },
+      "chargedFee": [
+        {
+          "type": "SKIP_LINE_FEE",
+          "fee": {
+            "amount": 223,
+            "currency": "USD"
+          }
+        }
+      ],
+      "total": {
+        "amount": 2168,
+        "currency": "USD"
+      }
+    },
+    "fulfillmentInfo": {
+      "type": "PICKUP",
+      "customer": {
+        "name": "Demo user",
+        "phone": "+16508618669"
+      }
+    },
+    "updates": [
+      {
+        "timestamp": 1596342171067,
+        "type": "STATUS_CHANGE",
+        "newStatus": "RECEIVED"
+      },
+      {
+        "timestamp": 1596342471000,
+        "type": "STATUS_CHANGE",
+        "newStatus": "PREPARING",
+        "oldStatus": "RECEIVED"
+      }
+    ]
+  },
+  {
+    "_id": "5f263e22bbcdc15adbdaaa52",
+    "creationTimestamp": 1596341794000,
+    "status": "PREPARING",
+    "merchantInfo": {
+      "storeId": "5f1df754397eb3ea808daa04",
+      "merchantName": "Brix",
+      "stallId": "5f1df755397eb3ea808daa05"
+    },
+    "lineItems": [
+      {
+        "name": "Potato Wedges",
+        "totalMoney": {
+          "amount": 939,
+          "currency": "USD"
+        },
+        "quantity": 2,
+        "selectedVariation": {
+          "_id": "5f1df751397eb3ea808da8b4",
+          "name": "Large",
+          "price": {
+            "amount": 718,
+            "currency": "USD"
+          }
+        },
+        "modifiers": [
+          {
+            "_id": "5f1df74f397eb3ea808da751",
+            "name": "Dressing",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da753",
+                "name": "Mustard",
+                "price": {
+                  "amount": 75,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5f1df74f397eb3ea808da74c",
+            "name": "Protein",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da74f",
+                "name": "Tofu",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5f1df74f397eb3ea808da742",
+            "name": "Base",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da743",
+                "name": "Wheat",
+                "price": {
+                  "amount": 146,
+                  "currency": "USD"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Chicken Tender Bites",
+        "totalMoney": {
+          "amount": 1146,
+          "currency": "USD"
+        },
+        "quantity": 3,
+        "selectedVariation": {
+          "_id": "5f1df751397eb3ea808da8d0",
+          "name": "Large",
+          "price": {
+            "amount": 1080,
+            "currency": "USD"
+          }
+        },
+        "modifiers": [
+          {
+            "_id": "5f1df74f397eb3ea808da751",
+            "name": "Dressing",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da755",
+                "name": "Olive oil",
+                "price": {
+                  "amount": 0,
+                  "currency": "USD"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "5f1df74f397eb3ea808da742",
+            "name": "Base",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da745",
+                "name": "Multigrain",
+                "price": {
+                  "amount": 66,
+                  "currency": "USD"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "invoice": {
+      "subTotal": {
+        "amount": 4963,
+        "currency": "USD"
+      },
+      "tip": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "tax": {
+        "amount": 447,
+        "currency": "USD"
+      },
+      "chargedFee": [
+        {
+          "type": "SKIP_LINE_FEE",
+          "fee": {
+            "amount": 0,
+            "currency": "USD"
+          }
+        }
+      ],
+      "total": {
+        "amount": 5410,
+        "currency": "USD"
+      }
+    },
+    "fulfillmentInfo": {
+      "type": "PICKUP",
+      "customer": {
+        "name": "Demo user",
+        "phone": "+16508618669"
+      }
+    },
+    "updates": [
+      {
+        "timestamp": 1596341794375,
+        "type": "STATUS_CHANGE",
+        "newStatus": "RECEIVED"
+      },
+      {
+        "timestamp": 1596342094000,
+        "type": "STATUS_CHANGE",
+        "newStatus": "PREPARING",
+        "oldStatus": "RECEIVED"
+      }
+    ]
+  },
+  {
+    "_id": "5f263b09d3eca25ab631c249",
+    "creationTimestamp": 1596341001000,
+    "status": "PREPARING",
+    "merchantInfo": {
+      "storeId": "5f1df754397eb3ea808daa04",
+      "merchantName": "Brix",
+      "stallId": "5f1df755397eb3ea808daa05"
+    },
+    "lineItems": [
+      {
+        "name": "Cheeseburger",
+        "totalMoney": {
+          "amount": 1263,
+          "currency": "USD"
+        },
+        "quantity": 1,
+        "modifiers": [
+          {
+            "_id": "5f1df74f397eb3ea808da751",
+            "name": "Dressing",
+            "chosenValue": [
+              {
+                "_id": "5f1df74f397eb3ea808da754",
+                "name": "Mayonnaise",
+                "price": {
+                  "amount": 65,
+                  "currency": "USD"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "invoice": {
+      "subTotal": {
+        "amount": 1263,
+        "currency": "USD"
+      },
+      "tip": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "tax": {
+        "amount": 114,
+        "currency": "USD"
+      },
+      "chargedFee": [
+        {
+          "type": "SKIP_LINE_FEE",
+          "fee": {
+            "amount": 0,
+            "currency": "USD"
+          }
+        }
+      ],
+      "total": {
+        "amount": 1377,
+        "currency": "USD"
+      }
+    },
+    "fulfillmentInfo": {
+      "type": "PICKUP",
+      "customer": {
+        "name": "Demo user",
+        "phone": "+16508618669"
+      }
+    },
+    "updates": [
+      {
+        "timestamp": 1596341001864,
+        "type": "STATUS_CHANGE",
+        "newStatus": "RECEIVED"
+      },
+      {
+        "timestamp": 1596341301000,
+        "type": "STATUS_CHANGE",
+        "newStatus": "PREPARING",
+        "oldStatus": "RECEIVED"
+      }
+    ]
+  }
+]

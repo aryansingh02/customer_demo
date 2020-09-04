@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'NationalBold';
+    src: local('NationalBold'), url(./fonts/National-Bold.otf) format('opentype');
+}
+@font-face {
+    font-family: 'NationalBook';
+    src: local('NationalBook'), url(./fonts/National-Book.otf) format('opentype');
+}@font-face {
+    font-family: 'NationalExtraBold';
+    src: local('NationalExtraBold'), url(./fonts/National-Extrabold.otf) format('opentype');
+}@font-face {
+    font-family: 'NationalMedium';
+    src: local('NationalMedium'), url(./fonts/National-Medium.otf) format('opentype');
+}@font-face {
+    font-family: 'NationalRegular';
+    src: local('NationalRegular'), url(./fonts/National-Regular.otf) format('opentype');
+}@font-face {
+    font-family: 'PlatformBold';
+    src: local('PlatformBold'), url(./fonts/platform-bold-webfont.ttf) format('truetype');
+}@font-face {
+    font-family: 'PlatformRegular';
+    src: local('PlatformRegular'), url(./fonts/platform-regular-webfont.ttf) format('truetype');
+}

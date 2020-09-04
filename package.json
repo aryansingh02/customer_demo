@@ -1,0 +1,90 @@
+{
+  "name": "user-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@reduxjs/toolkit": "^1.2.5",
+    "@sentry/react": "^5.20.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.4.1",
+    "date-fns": "^2.15.0",
+    "delay": "^4.3.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.27.0",
+    "node-sass": "^4.14.1",
+    "query-string": "^6.11.1",
+    "react": "^16.13.0",
+    "react-bootstrap": "^1.0.0-beta.17",
+    "react-cookie": "^4.0.3",
+    "react-dom": "^16.13.0",
+    "react-global-configuration": "^1.4.0",
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.10.0",
+    "react-number-format": "^4.4.1",
+    "react-phone-number-input": "^3.0.24",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-spring": "^9.0.0-beta.34",
+    "react-star-rating-component": "^1.4.1",
+    "react-switch": "^5.0.1",
+    "react-toastify": "^6.0.8",
+    "react-use-gesture": "^7.0.5",
+    "redux": "^4.0.5",
+    "redux-persist": "^6.0.0",
+    "styled-components": "^5.0.1",
+    "typeface-roboto": "0.0.75",
+    "uuid": "^8.3.0"
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "aws s3 cp build/ s3://sleek-demo  --recursive",
+    "flow": "flow",
+    "lint": "eslint --ext .js --ext .jsx src --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "plugin:prettier/recommended"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react-hooks": "^2.5.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.4",
+    "flow-bin": "^0.131.0"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss}": [
+      "prettier --write",
+      "npm run lint",
+      "npm run flow"
+    ]
+  },
+  "prettier": {
+    "bracketSpacing": false
+  }
+}
